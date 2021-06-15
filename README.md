@@ -10,17 +10,21 @@ Report any bugs to Battlecats59#0001 on Discord. You can join the [MCBE Discord 
 ### Running the compiled binary **(RECOMMENDED)**
 
 #### Dev build (May be unstable)
-1. To install the most recent dev build, head over to https://nightly.link/Battlecats59/MCBELootRandomizer/workflows/build.yaml/master and install the latest Windows build.
+1. To install the most recent dev build, head over to https://nightly.link/Battlecats59/MCBELootRandomizer/workflows/build.yaml/master/dist%20windows-latest.zip and install the latest Windows build.
 2. Extract the .exe file and run it.
 3. The randomizer should automatically find and select the output folder. If not, browse for the output folder and paste the following file path into the address bar.
+
 ` %LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\development_behavior_packs `
+
 4. Select your options and hit randomize.
 
 #### Latest Release
 1. To install the latest release, head over to the [release section](https://github.com/Battlecats59/MCBELootRandomizer/releases) and install the latest release.
 2. Extract the .exe file and run it.
 3. The randomizer should automatically find and select the output folder. If not, browse for the output folder and paste the following file path into the address bar.
+
 ` %LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\development_behavior_packs `
+
 4. Select your options and hit randomize.
 
 ### Running from Source
@@ -29,15 +33,24 @@ Report any bugs to Battlecats59#0001 on Discord. You can join the [MCBE Discord 
 2. Install Python 3.8 and pip (should come with most python installers)
 3. Navigate to the repository directory in a terminal of your choice
 4. Run the following command in the terminal
+
 ` pip install -r requirements.txt `
+
 5. Run the application using the following command
+
 ` python randomizer.py `
+
 OR
+
 ` py randomizer.py `
 
+
 6. You can also build the exe from the source code using the following commands:
+
 ` pip install -r requirements_build.txt `
+
 ` pyinstaller randomizer.spec `
+
 
 ## Documentation
 
