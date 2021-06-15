@@ -3,7 +3,7 @@ from paths import RANDO_ROOT_PATH
 import uuid
 import json
 import yaml
-from shutil import copyfile
+import shutil
 from pack_patches import patch
 
 from yaml.loader import FullLoader
@@ -21,29 +21,12 @@ class build:
 
             # Setup directories
         if os.path.isdir(f'{rdir}/MobDropRandomizer/') == True:
-            if os.path.isdir(f'{rdir}/MobDropRandomizer/loot_tables/'):
-                if os.path.isdir(f'{rdir}/MobDropRandomizer/loot_tables/entities/'):
-                    for p in os.listdir(f'{rdir}/MobDropRandomizer/loot_tables/entities/'):
-                        os.remove(f'{rdir}/MobDropRandomizer/loot_tables/entities/{p}')
-                    os.rmdir(f'{rdir}/MobDropRandomizer/loot_tables/entities/')
-                if os.path.isdir(f'{rdir}/MobDropRandomizer/loot_tables/chests/'):
-                    for p in os.listdir(f'{rdir}/MobDropRandomizer/loot_tables/chests/'):
-                        os.remove(f'{rdir}/MobDropRandomizer/loot_tables/chests/{p}')
-                    os.rmdir(f'{rdir}/MobDropRandomizer/loot_tables/chests/')
-            if os.path.isdir(f'{rdir}/MobDropRandomizer/entities/'):
-                for p in os.listdir(f'{rdir}/MobDropRandomizer/entities/'):
-                    os.remove(f'{rdir}/MobDropRandomizer/entities/{p}')
-            for p in os.listdir(f'{rdir}/MobDropRandomizer/'):
-                if os.path.isdir(f'{rdir}/MobDropRandomizer/{p}'):
-                    os.rmdir(f'{rdir}/MobDropRandomizer/{p}')
-                else:
-                    os.remove(f'{rdir}/MobDropRandomizer/{p}')
-        else: 
-            os.mkdir(f'{rdir}/MobDropRandomizer/')
-
+            shutil.rmtree(f'{rdir}/MobDropRandomizer/')
+        os.mkdir(f'{rdir}/MobDropRandomizer/')
         os.mkdir(f'{rdir}/MobDropRandomizer/loot_tables/')
         os.mkdir(f'{rdir}/MobDropRandomizer/loot_tables/entities/')
         os.mkdir(f'{rdir}/MobDropRandomizer/loot_tables/chests/')
+        os.mkdir(f'{rdir}/MobDropRandomizer/loot_tables/chests/village/')
         os.mkdir(f'{rdir}/MobDropRandomizer/entities/')
 
 
@@ -78,17 +61,22 @@ class build:
         manifestFile = open(f'{rdir}/MobDropRandomizer/manifest.json', 'w')
         manifestFile.write(json.dumps(manifestData, indent=2).replace("'", '"'))
         manifestFile.close()
-        copyfile(RANDO_ROOT_PATH / 'behavior_pack_files/pack_icon.png', f'{rdir}/MobDropRandomizer/pack_icon.png')
+        shutil.copyfile(RANDO_ROOT_PATH / 'behavior_pack_files/pack_icon.png', f'{rdir}/MobDropRandomizer/pack_icon.png')
 
         for mlt, mplt in patched_mob_loot_tables.items():
-            manifestFile = open(f'{rdir}/MobDropRandomizer/loot_tables/entities/{mlt}', 'w')
-            manifestFile.write(json.dumps(mplt, indent=2).replace("'", '"'))
-            manifestFile.close()
+            mltFile = open(f'{rdir}/MobDropRandomizer/loot_tables/entities/{mlt}', 'w')
+            mltFile.write(json.dumps(mplt, indent=2).replace("'", '"'))
+            mltFile.close()
         
         for clt, cplt in patched_chest_loot_tables.items():
-            manifestFile = open(f'{rdir}/MobDropRandomizer/loot_tables/chests/{clt}', 'w')
-            manifestFile.write(json.dumps(cplt, indent=2).replace("'", '"'))
-            manifestFile.close()
+            if clt.startswith('village_'):
+                cltFile = open(f'{rdir}/MobDropRandomizer/loot_tables/chests/village/{clt}', 'w')
+                cltFile.write(json.dumps(cplt, indent=2).replace("'", '"'))
+                cltFile.close()
+            else:
+                cltFile = open(f'{rdir}/MobDropRandomizer/loot_tables/chests/{clt}', 'w')
+                cltFile.write(json.dumps(cplt, indent=2).replace("'", '"'))
+                cltFile.close()
         
         return (True)
 
