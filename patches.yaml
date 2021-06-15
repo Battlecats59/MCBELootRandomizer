@@ -16,6 +16,12 @@ patches:
     versions:
       - 1.16
       - 1.17
+  - name: Cave Spider
+    patch: entity
+    patch_file: cave_spider.json
+    versions:
+      - 1.16
+      - 1.17
   - name: Donkey
     patch: entity
     patch_file: donkey.json
