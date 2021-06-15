@@ -1,0 +1,1 @@
+pyside2-uic randomizer.ui > ui_randomizer.py

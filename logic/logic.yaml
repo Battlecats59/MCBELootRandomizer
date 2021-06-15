@@ -1,0 +1,9 @@
+logic:
+  - name: shulker
+    file: shulker.json
+    requires:
+      - blaze
+  - name: wither_boss
+    file: wither.json
+    requires:
+      - wither_skeleton

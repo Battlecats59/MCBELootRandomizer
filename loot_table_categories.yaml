@@ -1,0 +1,629 @@
+entities:
+  - name: Axolotl
+    file: axolotl.json
+    type: rare_friendly
+    versions:
+      - 1.17
+  - name: Bat
+    file: bat.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Bee
+    file: bee.json
+    type: rare_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Blaze
+    file: blaze.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Cat
+    file: cat.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Cave Spider
+    file: cave_spider.json
+    type: rare_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Chicken
+    file: chicken.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Cow
+    file: cow.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Creeper
+    file: creeper.json
+    type: common_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Dolphin
+    file: dolphin.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Donkey
+    file: donkey.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Drowned
+    file: drowned.json
+    type: common_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Elder Guardian
+    file: elder_guardian.json
+    type: bosses
+    versions:
+      - 1.16
+      - 1.17
+  - name: Enderman
+    file: enderman.json
+    type: common_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Endermite
+    file: endermite.json
+    type: rare_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Evoker
+    file: evocation_illager.json
+    type: bosses
+    versions:
+      - 1.16
+      - 1.17
+  - name: Cod
+    file: fish.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Fox
+    file: fox.json
+    type: rare_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Ghast
+    file: ghast.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Glowsquid
+    file: glow_squid.json
+    type: rare_friendly
+    versions:
+      - 1.17
+  - name: Goat
+    file: goat.json
+    type: rare_friendly
+    versions:
+      - 1.17
+  - name: Guardian
+    file: guardian.json
+    type: rare_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Hoglin
+    file: hoglin.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Horse
+    file: horse.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Husk
+    file: husk.json
+    type: common_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Iron Golem
+    file: iron_golem.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Llama
+    file: llama.json
+    type: rare_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Magma Cube
+    file: magma_cube.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Mooshroom
+    file: mooshroom.json
+    type: rare_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Mule
+    file: mule.json
+    type: rare_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Ocelot
+    file: ocelot.json
+    type: rare_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Panda
+    file: panda.json
+    type: rare_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Parrot
+    file: parrot.json
+    type: rare_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Phantom
+    file: phantom.json
+    type: rare_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Pig
+    file: pig.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Piglin
+    file: piglin.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Pillager
+    file: pillager.json
+    type: common_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Polar Bear
+    file: polar_bear.json
+    type: rare_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Pufferfish
+    file: pufferfish.json
+    type: rare_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Rabbit
+    file: rabbit.json
+    type: rare_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Ravager
+    file: ravager.json
+    type: bosses
+    versions:
+      - 1.16
+      - 1.17
+  - name: Salmon
+    file: salmon_normal.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Sea Turtle
+    file: sea_turtle.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Sheep
+    file: sheep.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Shulker
+    file: shulker.json
+    type: end
+    versions:
+      - 1.16
+      - 1.17
+  - name: Silverfish
+    file: silverfish.json
+    type: rare_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Skeleton
+    file: skeleton.json
+    type: common_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Slime
+    file: slime.json
+    type: rare_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Snow Golem
+    file: snowman.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Spider
+    file: spider.json
+    type: common_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Squid
+    file: squid.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Stray
+    file: stray.json
+    type: rare_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Strider
+    file: strider.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Tropical Fish
+    file: tropicalfish.json
+    type: rare_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Villager
+    file: villager.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Vindicator
+    file: vindication_illager.json
+    type: rare_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Witch
+    file: witch.json
+    type: common_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Wither
+    file: wither_boss.json
+    type: bosses
+    versions:
+      - 1.16
+      - 1.17
+  - name: Wither Skeleton
+    file: wither_skeleton.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Wolf
+    file: wolf.json
+    type: common_friendly
+    versions:
+      - 1.16
+      - 1.17
+  - name: Zoglin
+    file: zoglin.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Zombified Piglin
+    file: zombie_pigman.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Zombie Villager
+    file: zombie_villager.json
+    type: common_hostile
+    versions:
+      - 1.16
+      - 1.17
+  - name: Zombie
+    file: zombie.json
+    type: common_hostile
+    versions:
+      - 1.16
+      - 1.17
+chests:
+  - name: Mineshaft
+    file: abandoned_mineshaft.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Bridge Bastion
+    file: bastion_bridge.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Hoglin Stable Bastion
+    file: bastion_hoglin_stable.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Other Bastion
+    file: bastion_other.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Treasure Bastion
+    file: bastion_treasure.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Buried Treasure
+    file: buriedtreasure.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Desert Pyramid
+    file: desert_pyramid.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: End City
+    file: end_city_treasure.json
+    type: end
+    versions:
+      - 1.16
+      - 1.17
+  - name: Igloo
+    file: igloo_chest.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Jungle Temple
+    file: jungle_temple.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Nether Fortress
+    file: nether_bridge.json
+    type: nether
+    versions:
+      - 1.16
+      - 1.17
+  - name: Pillager Outpost
+    file: pillager_outpost.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Ruined Portal
+    file: ruined_portal.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Shipwreck
+    file: shipwreck.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Shipwreck Supply
+    file: shipwrecksupply.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Shipwreck Treasure
+    file: shipwrecktreasure.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Dungeon
+    file: simple_dungeon.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Bonus Chest
+    file: spawn_bonus_chest.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Stronghold Corridor
+    file: stronghold_corridor.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Stronghold Crossing
+    file: stronghold_crossing.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Stronghold Library
+    file: stronghold_library.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Small Underwater Ruin
+    file: underwater_ruin_small.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Large Underwater Ruin
+    file: underwater_ruin_big.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Woodland Mansion
+    file: woodland_mansion.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Armorer
+    file: village_armorer.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Blacksmith
+    file: village_blacksmith.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Butcher
+    file: village_butcher.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Cartographer
+    file: village_cartographer.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Fletcher
+    file: village_fletcher.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Stonemason
+    file: village_mason.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Shepherd
+    file: village_shepherd.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Leatherworker
+    file: village_tannery.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Temple
+    file: village_temple.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Toolsmith
+    file: village_toolsmith.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Two-Room House
+    file: village_two_room_house.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Weaponsmith
+    file: village_weaponsmith.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Desert House
+    file: village_desert_house.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Plains House
+    file: village_plains_house.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Savanna House
+    file: village_savanna_house.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Snowy House
+    file: village_snowy_house.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17
+  - name: Village Taiga House
+    file: village_taiga_house.json
+    type: overworld
+    versions:
+      - 1.16
+      - 1.17

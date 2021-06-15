@@ -1,0 +1,146 @@
+# general/file options
+- name: Output Folder
+  option: output_folder
+  ui: output_folder
+  permalink: False
+  description: The folder where the pack will be exported to. This should be the development_behavior_packs directory in your Minecraft files, but it can be any valid directory
+  enabled: true
+- name: Output Folder Browse Button
+  ui: output_folder_browse_button
+  permalink: False
+  description: Browse for the output folder.
+  enabled: true 
+- name: Seed
+  option: seed
+  ui: seed
+  permalink: False
+  description: The randomizer seed to determine mob drops. This is NOT the same as the Minecraft seed. Seed -1 will result in a random seed
+  enabled: true 
+- name: Seed Button
+  ui: seed_button
+  permalink: False
+  description: Generate a new random seed.
+  enabled: true
+- name: Randomize Button
+  ui: randomize_button
+  permalink: False
+  description: Randomize and build the pack into the specified output folder
+  enabled: true
+
+# rando options
+- name: Option Preset
+  option: preset
+  ui: option_preset
+  choices:
+    - Speedrun
+    - Speedrun w/ Randomized Chest Loot
+    - Custom
+  type: singlechoice
+  bits: 2
+  description: Determines preset options. Any speedrun preset must be selected if you are doing a speedrun for the leaderboards (depending on the category), but all other presets, such as custom, are banned. Custom will let you select your own settings for casual playthroughs
+  default: Speedrun
+  enabled: true
+- name: Minecraft Version
+  option: version
+  ui: option_version
+  choices:
+    - 1.16
+    - 1.17
+  type: singlechoice
+  bits: 1
+  description: Select the Minecraft version you will be playing on. The third number in the version does not matter
+  default: 1.17
+  enabled: true
+- name: Spoiler Log
+  option: spoiler_log
+  ui: option_spoiler_log
+  type: boolean
+  description: Determines if a spoiler log will be made. A spoiler log will be made in a txt file in the behavior pack directory telling you where the shuffled loot is. This MUST be OFF in leaderboard speedruns
+  default: false
+  enabled: false
+
+- name: Randomized All Mobs
+  option: randomized_all
+  ui: option_randomized_all
+  type: boolean
+  description: If selected, ALL mob drops will be randomized
+  default: true 
+  enabled: false 
+- name: Randomized Common Friendly Mobs
+  option: randomized_common_friendly
+  ui: option_randomized_common_friendly
+  type: boolean
+  description: If selected, common friendly and neutral mob drops will be randomized (such as cow, pig, etc.)
+  default: true 
+  enabled: false
+- name: Randomized Common Hostile Mobs
+  option: randomized_common_hostile
+  ui: option_randomized_common_hostile
+  type: boolean
+  description: If selected, common hostile mob drops will be randomized (such as zombie, skeleton, etc.)
+  default: true 
+  enabled: false
+- name: Randomized Rare Friendly Mobs
+  option: randomized_rare_friendly
+  ui: option_randomized_rare_friendly
+  type: boolean
+  description: If selected, rare friendly and neutral mob drops will be randomized (such as mooshroom, polar bear, etc.)
+  default: true
+  enabled: false
+- name: Randomized Rare Hostile Mobs
+  option: randomized_rare_hostile
+  ui: option_randomized_rare_hostile
+  type: boolean
+  description: If selected, rare hostile mob drops will be randomized (such as stray, phantom, etc)
+  default: true 
+  enabled: false
+- name: Randomized Nether Mobs
+  option: randomized_nether
+  ui: option_randomized_nether
+  type: boolean
+  description: If selected, nether mob drops will be randomized (such as ghast, blaze, etc.)
+  default: true 
+  enabled: false
+- name: Randomized End Mobs
+  option: randomized_end
+  ui: option_randomized_end
+  type: boolean
+  description: If selected, end mob drops will be randomized (shulkers)
+  default: true 
+  enabled: false
+- name: Randomized Bosses
+  option: randomized_bosses
+  ui: option_randomized_bosses
+  type: boolean
+  description: If selected, boss drops will be randomized (wither, elder guardian, evoker, & ravager)
+  default: true
+  enabled: false
+
+- name: Randomized All Chests
+  option: randomized_all_chests
+  ui: option_randomized_all_chests
+  type: boolean
+  description: If selected, all chest loot tables will be shuffled
+  default: false
+  enabled: false
+- name: Randomized Overworld Chests
+  option: randomized_overworld_chests
+  ui: option_randomized_overworld_chests
+  type: boolean
+  description: If selected, overworld chest loot tables will be shuffled (such as villages, buried treasure, etc.)
+  default: false
+  enabled: false
+- name: Randomized Nether Chests
+  option: randomized_nether_chests
+  ui: option_randomized_nether_chests
+  type: boolean
+  description: If selected, nether chest loot tables will be shuffled (such as bastions, fortresses, etc.)
+  default: false
+  enabled: false
+- name: Randomized End Chests
+  option: randomized_end_chests
+  ui: option_randomized_end_chests
+  type: boolean
+  description: If selected, end chest loot tables will be shuffled (end cities)
+  default: false
+  enabled: false
