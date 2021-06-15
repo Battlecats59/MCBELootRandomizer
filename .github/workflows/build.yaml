@@ -1,0 +1,28 @@
+on: [push]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest]
+        python-version: [3.8]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install requirements
+        run: python -m pip install -r requirements.txt
+      - name: Install build requirements
+        run: python -m pip install -r requirements_build.txt
+      - name: Build distribution
+        run: pyinstaller randomizer.spec
+      - name: Copy Readme
+        run: cp README.md dist
+        shell: bash
+      - uses: actions/upload-artifact@v2
+        with:
+          name: dist ${{ matrix.os }}
+          path: dist
