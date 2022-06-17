@@ -46,10 +46,12 @@
   choices:
     - 1.16
     - 1.17
+    - 1.18
+    - 1.19
   type: singlechoice
-  bits: 1
+  bits: 2
   description: Select the Minecraft version you will be playing on. The third number in the version does not matter
-  default: 1.17
+  default: 1.19
   enabled: true
 - name: Spoiler Log
   option: spoiler_log
