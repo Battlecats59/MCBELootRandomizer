@@ -14,10 +14,10 @@
                             "function": "minecraft:set_stew_effect",
                             "effects": [
                                 {
-                                    "id": 0 // night vision
+                                    "id": 0
                                 },
                                 {
-                                    "id": 3 // blindness
+                                    "id": 3
                                 }
                             ]
                         },
