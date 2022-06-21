@@ -50,6 +50,19 @@ class build:
         headerData.update({"name": f"MCBE Loot Randomizer v{version}"})
         headerData.update({"description": f"{rmcversion} | Rando Seed: {rseed}, Rando Hash: {rhash}, Rando Settings: {rpreset} [{rpermalink}]"})
 
+            # engine version
+        if rmcversion == "1.16":
+            headerData.update({"min_engine_version": [1, 16, 0]})
+        elif rmcversion == "1.17":
+            headerData.update({"min_engine_version": [1, 17, 0]})
+        elif rmcversion == "1.18":
+            headerData.update({"min_engine_version": [1, 18, 0]})
+        elif rmcversion == "1.19":
+            headerData.update({"min_engine_version": [1, 19, 0]})
+        else:
+            print("Error: Invalid version. Please report this error if you come across this. Defaulting pack to 1.16.")
+            headerData.update({"min_engine_version": [1, 16, 0]})
+
         manifestData.update({'header': headerData, 'modules': moduleData})
 
 

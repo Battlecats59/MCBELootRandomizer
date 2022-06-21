@@ -51,7 +51,7 @@
     - 1.18
     - 1.19
   type: singlechoice
-  bits: 2
+  bits: 3
   description: Select the Minecraft version you will be playing on. The third number in the version does not matter
   default: 1.19
   enabled: true

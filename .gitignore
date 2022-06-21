@@ -69,6 +69,7 @@ Thumbs.db
 # Binaries
 build/
 dist/
+versions/
 *.dll
 *.exe
 

@@ -3,6 +3,8 @@
 Loot randomizer for Minecraft: Bedrock Edition. The application takes a user-inputted seed and randomization settings to randomize mob drops and chest loot tables.
 Report any bugs to Battlecats59#2431 on Discord. You can join the [MCBE Discord Server](https://discord.gg/RDq2Sm8xYm) to DM me.
 
+For information about what the randomizer does and all of the options, see the [**Randomizer Documentation**](https://github.com/Battlecats59/MCBELootRandomizer/blob/master/INFO.md).
+
 ## Installation
 
 **As of the latest build, the randomizer is only available on Windows devices.** Linux compatibility is still in progress.

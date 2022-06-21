@@ -4,74 +4,100 @@ patches:
     patch_file: axolotl.json
     versions:
       - 1.17
+      - 1.18
+      - 1.19
   - name: Bat
     patch: entity
     patch_file: bat.json
     versions:
       - 1.16
       - 1.17
+      - 1.18
+      - 1.19
   - name: Bee
     patch: entity
     patch_file: bee.json
     versions:
       - 1.16
       - 1.17
+      - 1.18
+      - 1.19
   - name: Cave Spider
     patch: entity
     patch_file: cave_spider.json
     versions:
       - 1.16
       - 1.17
+      - 1.18
+      - 1.19
   - name: Donkey
     patch: entity
     patch_file: donkey.json
     versions:
       - 1.16
       - 1.17
+      - 1.18
+      - 1.19
   - name: Endermite
     patch: entity
     patch_file: endermite.json
     versions:
       - 1.16
       - 1.17
+      - 1.18
+      - 1.19
   - name: Fox
     patch: entity
     patch_file: fox.json
     versions:
       - 1.16
       - 1.17
+      - 1.18
+      - 1.19
   - name: Glowsquid
     patch: entity
     patch_file: glow_squid.json
     versions:
       - 1.17
+      - 1.18
+      - 1.19
   - name: Husk
     patch: entity
     patch_file: husk.json
     versions:
       - 1.16
       - 1.17
+      - 1.18
+      - 1.19
   - name: Mule
     patch: entity
     patch_file: mule.json
     versions:
       - 1.16
       - 1.17
+      - 1.18
+      - 1.19
   - name: Salmon # fix large salmon loot table
     patch: entity
     patch_file: salmon.json
     versions:
       - 1.16
       - 1.17
+      - 1.18
+      - 1.19
   - name: Villager
     patch: entity
     patch_file: villager_v2.json
     versions:
       - 1.16
       - 1.17
+      - 1.18
+      - 1.19
   - name: Zombie Villager
     patch: entity
     patch_file: zombie_villager_v2.json
     versions:
       - 1.16
       - 1.17
+      - 1.18
+      - 1.19
