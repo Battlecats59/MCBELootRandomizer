@@ -17,7 +17,7 @@ class Ui_randomizer(object):
     def setupUi(self, randomizer):
         if not randomizer.objectName():
             randomizer.setObjectName(u"randomizer")
-        randomizer.resize(793, 600)
+        randomizer.resize(793, 607)
         self.centralwidget = QWidget(randomizer)
         self.centralwidget.setObjectName(u"centralwidget")
         self.groupBox_randomized_drops = QGroupBox(self.centralwidget)
@@ -170,10 +170,10 @@ class Ui_randomizer(object):
         self.groupBox_randomize = QGroupBox(self.centralwidget)
         self.groupBox_randomize.setObjectName(u"groupBox_randomize")
         self.groupBox_randomize.setEnabled(True)
-        self.groupBox_randomize.setGeometry(QRect(20, 460, 751, 91))
+        self.groupBox_randomize.setGeometry(QRect(20, 460, 751, 101))
         self.gridLayoutWidget_8 = QWidget(self.groupBox_randomize)
         self.gridLayoutWidget_8.setObjectName(u"gridLayoutWidget_8")
-        self.gridLayoutWidget_8.setGeometry(QRect(10, 20, 731, 61))
+        self.gridLayoutWidget_8.setGeometry(QRect(10, 20, 731, 71))
         self.gridLayout_8 = QGridLayout(self.gridLayoutWidget_8)
         self.gridLayout_8.setObjectName(u"gridLayout_8")
         self.gridLayout_8.setContentsMargins(0, 0, 0, 0)

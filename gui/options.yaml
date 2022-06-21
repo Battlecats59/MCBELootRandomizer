@@ -34,10 +34,12 @@
   choices:
     - Speedrun
     - Speedrun w/ Randomized Chest Loot
+    - Speedrun w/ Spoiler Log
+    - Speedrun w/ Spoiler Log & Randomized Chest Loot
     - Custom
   type: singlechoice
-  bits: 2
-  description: Determines preset options. Any speedrun preset must be selected if you are doing a speedrun for the leaderboards (depending on the category), but all other presets, such as custom, are banned. Custom will let you select your own settings for casual playthroughs
+  bits: 3
+  description: Determines preset options. Any speedrun preset must be selected if you are doing a speedrun for the leaderboards (depending on the category), but all other presets, such as custom, are banned. Custom will let you select your own settings for casual playthroughs. If doing a speedrun, be sure to read the rules of the category you are running
   default: Speedrun
   enabled: true
 - name: Minecraft Version

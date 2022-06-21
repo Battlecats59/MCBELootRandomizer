@@ -2,7 +2,7 @@ import os
 import sys
 import random
 
-from PySide2.QtWidgets import QMainWindow, QApplication, QAbstractButton, QComboBox, QSpinBox, QListView, QCheckBox, \
+from PySide2.QtWidgets import QMainWindow, QApplication, QAbstractButton, QComboBox, QSpinBox, QListView, QLineEdit, QCheckBox, \
     QRadioButton, QFileDialog, QMessageBox, QErrorMessage
 from PySide2.QtCore import QFile, Qt, QTimer, QEvent, QStringListModel
 from yaml.loader import FullLoader
@@ -218,14 +218,17 @@ class randomizer(QMainWindow):
             
             widget.setEnabled(optset['enabled'])
 
-            if isinstance(widget, QAbstractButton):
-                widget.setChecked(optset['value'])
-            elif isinstance(widget, QComboBox):
-                widget.setCurrentText(optset['value'])
-            elif isinstance(widget, QListView):
-                pass # not impletmented
-            elif isinstance(widget, QSpinBox):
-                widget.setValue(optset['value'])
+            if 'value' in optset:
+                if isinstance(widget, QAbstractButton):
+                    widget.setChecked(optset['value'])
+                elif isinstance(widget, QComboBox):
+                    widget.setCurrentText(optset['value'])
+                elif isinstance(widget, QListView):
+                    pass # not impletmented
+                elif isinstance(widget, QSpinBox):
+                    widget.setValue(optset['value'])
+                elif isinstance(widget, QLineEdit):
+                    widget.setText(optset['value'])
 
     def on_error(self, message):
         self.error_msg = QErrorMessage(self)

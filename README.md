@@ -1,7 +1,7 @@
 # MCBE Loot Randomizer
 
 Loot randomizer for Minecraft: Bedrock Edition. The application takes a user-inputted seed and randomization settings to randomize mob drops and chest loot tables.
-Report any bugs to Battlecats59#0001 on Discord. You can join the [MCBE Discord Server](https://discord.gg/RDq2Sm8xYm) to DM me.
+Report any bugs to Battlecats59#2431 on Discord. You can join the [MCBE Discord Server](https://discord.gg/RDq2Sm8xYm) to DM me.
 
 ## Installation
 

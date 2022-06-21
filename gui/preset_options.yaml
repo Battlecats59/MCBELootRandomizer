@@ -1,4 +1,8 @@
 Speedrun:
+  - name: Seed
+    option: seed
+    ui: seed
+    enabled: true
   - name: Spoiler Log
     option: spoiler_log
     ui: option_spoiler_log
@@ -66,6 +70,10 @@ Speedrun:
     enabled: false
 
 Speedrun w/ Randomized Chest Loot:
+  - name: Seed
+    option: seed
+    ui: seed
+    enabled: true
   - name: Spoiler Log
     option: spoiler_log
     ui: option_spoiler_log
@@ -132,7 +140,155 @@ Speedrun w/ Randomized Chest Loot:
     value: true
     enabled: false
 
+Speedrun w/ Spoiler Log:
+  - name: Seed
+    option: seed
+    ui: seed
+    value: "-1"
+    enabled: false
+  - name: Spoiler Log
+    option: spoiler_log
+    ui: option_spoiler_log
+    value: true
+    enabled: false
+  - name: Randomized All Mobs
+    option: randomized_all
+    ui: option_randomized_all
+    value: true 
+    enabled: false 
+  - name: Randomized Common Friendly Mobs
+    option: randomized_common_friendly
+    ui: option_randomized_common_friendly
+    value: true
+    enabled: false
+  - name: Randomized Common Hostile Mobs
+    option: randomized_common_hostile
+    ui: option_randomized_common_hostile
+    value: true 
+    enabled: false
+  - name: Randomized Rare Friendly Mobs
+    option: randomized_rare_friendly
+    ui: option_randomized_rare_friendly
+    value: true
+    enabled: false
+  - name: Randomized Rare Hostile Mobs
+    option: randomized_rare_hostile
+    ui: option_randomized_rare_hostile
+    value: true 
+    enabled: false
+  - name: Randomized Nether Mobs
+    option: randomized_nether
+    ui: option_randomized_nether
+    value: true 
+    enabled: false
+  - name: Randomized End Mobs
+    option: randomized_end
+    ui: option_randomized_end
+    value: true 
+    enabled: false
+  - name: Randomized Bosses
+    option: randomized_bosses
+    ui: option_randomized_bosses
+    value: true
+    enabled: false
+  - name: Randomized All Chests
+    option: randomized_all_chests
+    ui: option_randomized_all_chests
+    value: false
+    enabled: false
+  - name: Randomized Overworld Chests
+    option: randomized_overworld_chests
+    ui: option_randomized_overworld_chests
+    value: false
+    enabled: false
+  - name: Randomized Nether Chests
+    option: randomized_nether_chests
+    ui: option_randomized_nether_chests
+    value: false
+    enabled: false
+  - name: Randomized End Chests
+    option: randomized_end_chests
+    ui: option_randomized_end_chests
+    value: false
+    enabled: false
+
+Speedrun w/ Spoiler Log & Randomized Chest Loot:
+  - name: Seed
+    option: seed
+    ui: seed
+    value: "-1"
+    enabled: false
+  - name: Spoiler Log
+    option: spoiler_log
+    ui: option_spoiler_log
+    value: true
+    enabled: false
+  - name: Randomized All Mobs
+    option: randomized_all
+    ui: option_randomized_all
+    value: true 
+    enabled: false 
+  - name: Randomized Common Friendly Mobs
+    option: randomized_common_friendly
+    ui: option_randomized_common_friendly
+    value: true
+    enabled: false
+  - name: Randomized Common Hostile Mobs
+    option: randomized_common_hostile
+    ui: option_randomized_common_hostile
+    value: true 
+    enabled: false
+  - name: Randomized Rare Friendly Mobs
+    option: randomized_rare_friendly
+    ui: option_randomized_rare_friendly
+    value: true
+    enabled: false
+  - name: Randomized Rare Hostile Mobs
+    option: randomized_rare_hostile
+    ui: option_randomized_rare_hostile
+    value: true 
+    enabled: false
+  - name: Randomized Nether Mobs
+    option: randomized_nether
+    ui: option_randomized_nether
+    value: true 
+    enabled: false
+  - name: Randomized End Mobs
+    option: randomized_end
+    ui: option_randomized_end
+    value: true 
+    enabled: false
+  - name: Randomized Bosses
+    option: randomized_bosses
+    ui: option_randomized_bosses
+    value: true
+    enabled: false
+  - name: Randomized All Chests
+    option: randomized_all_chests
+    ui: option_randomized_all_chests
+    value: true
+    enabled: false
+  - name: Randomized Overworld Chests
+    option: randomized_overworld_chests
+    ui: option_randomized_overworld_chests
+    value: true
+    enabled: false
+  - name: Randomized Nether Chests
+    option: randomized_nether_chests
+    ui: option_randomized_nether_chests
+    value: true
+    enabled: false
+  - name: Randomized End Chests
+    option: randomized_end_chests
+    ui: option_randomized_end_chests
+    value: true
+    enabled: false
+
 Custom:
+  - name: Seed
+    option: seed
+    ui: seed
+    enabled: true
   - name: Spoiler Log
     option: spoiler_log
     ui: option_spoiler_log
